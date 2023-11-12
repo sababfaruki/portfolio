@@ -76,4 +76,30 @@ h2{
 }
 .red-one{
     color: 	#04d9ff;
+    margin: 8px;
+    text-align: center;
+}
+.single{
+    box-shadow: 5px 5px 20px yellow;
+    border-radius: 10px;
+    height: 32%;
+    width: 42%;
+}
+#exp{
+    font-size: 30px;
+    text-align: justify;
+    margin: 5px;
+
+}
+.exp{
+    text-align: center;
+}
+#full-stack{
+    background-color: black;
+    color:white;
+
+}
+footer{
+    text-align: center;
+    font-size: 30px;
 }
