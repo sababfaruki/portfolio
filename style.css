@@ -3,16 +3,26 @@ body{
     color: white;
     background-color: black;
 }
-h1.welcome{
+#image{
+    height: 30%;
+    width: 30%;
+    margin-left: 20%;
+}
+.text{
+    margin: 4%;
+}
+.welcome{
     font-size: 30px;
-   
-
+    margin-left: 2%;
+}
+.ws{
+    font-size: 35px;
 }
 h1.name{
-    font-size: 50px;
+    font-size: 65px;
 }
 .name-color{
-    color:#d7ff04; 
+    color:#AAFF01; 
 
 }
 .half-bio{
@@ -20,9 +30,50 @@ h1.name{
     width: 40%;
     float: left;
     margin-right: 2%;
-    padding: 3%;
+    margin-left: 4%;
+    
 }
 .half-bio img{
-    width: 100%;
-    float: right;
+    height: 250px;
+    width: 250px;
+}
+.top-banner{
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 1200px;
+}
+.button-link{
+    text-decoration: none;
+    background-image:linear-gradient(45deg,aqua,#AAFF01);
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    border-color: white;
+    border-width: 5px;
+}
+#second{
+    height: 90%;
+    width: 90%;
+}
+h2{
+    color: #AAFF01;
+}
+#second-p{
+    color: rgb(255, 255, 255);
+}
+.best{
+    color: red;
+}
+.dream{
+    background-image: url(images/second-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.red-one{
+    color: 	#04d9ff;
 }
