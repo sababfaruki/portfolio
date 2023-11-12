@@ -1,0 +1,28 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: black;
+}
+h1.welcome{
+    font-size: 30px;
+   
+
+}
+h1.name{
+    font-size: 50px;
+}
+.name-color{
+    color:#d7ff04; 
+
+}
+.half-bio{
+    font-size: 30px;
+    width: 40%;
+    float: left;
+    margin-right: 2%;
+    padding: 3%;
+}
+.half-bio img{
+    width: 100%;
+    float: right;
+}
