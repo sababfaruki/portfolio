@@ -13,6 +13,23 @@ body{
     height: 30%;
     width: 30%;
 }
+.sfx {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .5px; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(21, end),
+      blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }
 .text{
     margin: 4%;
 }
@@ -128,4 +145,22 @@ span:hover{
 }
 .best:hover{
     color:cyan;
+}
+.Goal{
+animation: cc 3s ease-in-out 0.5s infinite;
+text-shadow: #fff 0px 0px 10px;
+}
+@keyframes cc{
+    0%{
+        color: #AAFF01; 
+        text-shadow:#fff 0px 0px 0px ;       
+    }
+    50%{
+        color: #fff;
+        text-shadow: #fff 0px 0px 8px;
+    }
+    100%{
+        color: #AAFF01;
+        text-shadow:#fff 0px 0px 0px ;  
+    }
 }
