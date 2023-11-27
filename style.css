@@ -14,20 +14,18 @@ body{
     width: 30%;
 }
 .sfx {
-    width: 30%;
     overflow: hidden;
-  border-right: .15em solid #AAFF01;
-  letter-spacing: .15em;
-  white-space: nowrap;
-  animation: 
-    typing 1s forwards;
-  font-size: 30px;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 58% }
-}
+    border-right: .15em solid #AAFF01;
+    white-space: nowrap;
+    animation: 
+      typing 1s forwards;
+    font-size: 30px;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 48% }
+  }
 .text{
     margin: 4%;
 }
@@ -62,7 +60,6 @@ h1.name{
 
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    justify-content: space-evenly;
 }
 section{
     height: 1200px;
